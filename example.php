@@ -2,7 +2,6 @@
     require_once 'Timer.php';
 
     for($i = 0; $i < 5000; $i++) {
-
         // Measure performance of md5()
         Timer::start('md5');
         md5('Password' . $i);
