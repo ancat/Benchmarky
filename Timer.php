@@ -3,7 +3,6 @@
         public static $results = array();
 
         public static function start($key) {
-            $time = microtime(true);
             if (array_key_exists($key, self::$results)) {
                 self::$results[$key]['tests']++;
                 self::$results[$key]['start'] = microtime(true);
