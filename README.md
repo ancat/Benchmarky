@@ -13,8 +13,6 @@ The general idea is each operation being benchmarked has its own key.
 Timer organizes the keys on its own, so all you have to do is start
 and stop the Timer, just using the key name. 
 
-::
-
     <?PHP
         require_once 'Timer.php';
     
@@ -36,8 +34,6 @@ and stop the Timer, just using the key name.
 
 
 This produces the following output:
-
-::
 
     Results for md5: 5000 tests; Max: 5.793571472168E-5; Min: 2.8610229492188E-6; Avg: 3.762674331665E-6; Total: 0.018813371658325
     Results for sha1: 5000 tests; Max: 0.00011992454528809; Min: 2.8610229492188E-6; Avg: 4.1135787963867E-6; Total: 0.020567893981934
