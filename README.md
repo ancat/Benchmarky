@@ -1,7 +1,6 @@
 Benchmarky
 ==========
 
-Most existing Python modules for sending HTTP requests are extremely
 Benchmarky is a small static class that makes benchmarking multiple
 operations at the same time really easy. Most benchmarking classes
 require creating some type of benchmarking object per each operation
